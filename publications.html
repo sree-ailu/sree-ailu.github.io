@@ -5,6 +5,18 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Publications | Sreedhar Ailu</title>
+<meta name="description" content="Journal papers, conference papers, preprints, and technical articles by Sreedhar Ailu on enterprise software quality governance and regulated UAT systems."/>
+<meta name="robots" content="index,follow"/>
+<link rel="canonical" href="https://sreedharailu.com/publications.html"/>
+<meta property="og:type" content="profile"/>
+<meta property="og:title" content="Publications | Sreedhar Ailu"/>
+<meta property="og:description" content="Journal papers, conference papers, preprints, and technical articles by Sreedhar Ailu on enterprise software quality governance and regulated UAT systems."/>
+<meta property="og:url" content="https://sreedharailu.com/publications.html"/>
+<meta property="og:image" content="https://sreedharailu.com/images/profile.jpg"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Publications | Sreedhar Ailu"/>
+<meta name="twitter:description" content="Journal papers, conference papers, preprints, and technical articles by Sreedhar Ailu on enterprise software quality governance and regulated UAT systems."/>
+
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -244,6 +256,12 @@ nav{
 .badge-preprint{background:transparent;color:var(--accent);border-color:#c2d4e2}
 .badge-practitioner{background:transparent;color:#6b7a5e;border-color:#d8e0cf}
 .pub-authors{font-size:0.85rem;color:var(--muted)}
+.pub-abstract{font-size:0.88rem;color:var(--muted);line-height:1.75;margin-top:0.75rem;max-width:640px}
+.pub-links{display:flex;gap:1.25rem;flex-wrap:wrap;margin-top:0.85rem}
+.pub-links a{font-size:0.82rem;font-weight:500;color:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:0.35rem}
+.pub-links a:hover{text-decoration:underline}
+.pub-cat-title{font-family:var(--serif);font-size:1.15rem;font-weight:700;color:var(--text);margin-top:3.5rem;margin-bottom:0.5rem;letter-spacing:-0.01em}
+.pub-cat-title:first-of-type{margin-top:0}
 @media(max-width:560px){.pub-item{grid-template-columns:50px 1fr;gap:1rem}}
 
 /* SERVICE */
@@ -366,53 +384,89 @@ footer{
 <section id="publications" class="section">
   <div class="section-inner">
     <span class="section-label reveal">Scholarly Work</span>
-    <h2 class="section-title reveal">Publications &amp; Working Papers</h2>
-    <p class="section-intro reveal">Current practitioner research contributions under formal academic review.</p>
-    <div>
-      <div class="pub-item reveal">
-        <div class="pub-year">2026</div>
-        <div>
-          <p class="pub-title">A Governance Framework for Regulatory Interpretation Alignment in Multi-Vendor User Acceptance Testing</p>
-          <p class="pub-venue">IEEE Access &nbsp;·&nbsp; Manuscript ID Access-2026-18552</p>
-          <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
-        </div>
-      </div>
-      <div class="pub-item reveal">
-        <div class="pub-year">2026</div>
-        <div>
-          <p class="pub-title">Closing the Regulatory Interpretation Gap in Enterprise UAT</p>
-          <p class="pub-venue">PNSQC — Pacific Northwest Software Quality Conference</p>
-          <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
-        </div>
-      </div>
-      <div class="pub-item reveal">
-        <div class="pub-year">2026</div>
-        <div>
-          <p class="pub-title">Testability Coverage Rate</p>
-          <p class="pub-venue">QRS 2026 — Industry Track</p>
-          <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
-        </div>
-      </div>
-      <div class="pub-item reveal">
-        <div class="pub-year">2026</div>
-        <div>
-          <p class="pub-title">The RIG &amp; ATL Frameworks: Governance Structures for Regulated Healthcare Software Delivery</p>
-          <p class="pub-venue">Zenodo Preprint &nbsp;·&nbsp; <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">zenodo.org/records/19870009</a></p>
-          <div class="pub-meta"><span class="pub-badge badge-preprint">Preprint</span><span class="pub-authors">Ailu, S.</span></div>
+    <h2 class="section-title reveal">Publications</h2>
+    <p class="section-intro reveal">Journal papers, conference papers, preprints, and technical articles, organized by category. Status reflects the most recent confirmed stage of review.</p>
+
+    <h3 class="pub-cat-title reveal">Journal Papers</h3>
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div>
+        <p class="pub-title">A Governance Framework for Regulatory Interpretation Alignment in Multi-Vendor User Acceptance Testing</p>
+        <p class="pub-venue">IEEE Access &nbsp;·&nbsp; Manuscript ID Access-2026-18552</p>
+        <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">Proposes a governance framework for aligning regulatory intent with executable acceptance criteria across multi-vendor UAT programs, drawing on evidence from healthcare, insurance, and government enterprise implementations.</p>
+        <div class="pub-links">
+          <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">Related Preprint (Zenodo)</a>
+          <span style="color:var(--muted);font-size:0.82rem">DOI: pending publication</span>
         </div>
       </div>
     </div>
-    <p style="margin-top:2rem;font-size:0.85rem;color:var(--muted);font-style:italic">Research artifacts and submission status will be updated as formal review processes progress.</p>
 
-    <h3 style="font-family:var(--serif);font-size:1.15rem;font-weight:700;color:var(--text);margin-top:3.5rem;margin-bottom:0.5rem;letter-spacing:-0.01em">Practitioner Articles</h3>
-    <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1rem">Kept separate from peer-reviewed academic publications above.</p>
+    <h3 class="pub-cat-title reveal">Conference Papers</h3>
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div>
+        <p class="pub-title">Closing the Regulatory Interpretation Gap in Enterprise UAT</p>
+        <p class="pub-venue">PNSQC — Pacific Northwest Software Quality Conference</p>
+        <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">Introduces the Regulatory Interpretation Gap (RIG) as a diagnostic construct for locating where compliance intent erodes across multi-vendor delivery chains, with a governance response via the Acceptance Translation Layer (ATL).</p>
+      </div>
+    </div>
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div>
+        <p class="pub-title">Testability Coverage Rate</p>
+        <p class="pub-venue">QRS 2026 — Industry Track</p>
+        <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">Introduces Testability Coverage Rate (TCR), a metric and scoring methodology quantifying the proportion of system behavior that is reliably testable, distinct from test-pass rate or code coverage.</p>
+      </div>
+    </div>
+
+    <h3 class="pub-cat-title reveal">Preprints</h3>
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div>
+        <p class="pub-title">The RIG &amp; ATL Frameworks: Governance Structures for Regulated Healthcare Software Delivery</p>
+        <p class="pub-venue">Zenodo Preprint &nbsp;·&nbsp; <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">zenodo.org/records/19870009</a></p>
+        <div class="pub-meta"><span class="pub-badge badge-preprint">Preprint</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">Documents the RIG and ATL frameworks in full, including the diagnostic model for regulatory interpretation drift and the operational governance mechanism for closing it across vendor boundaries.</p>
+        <div class="pub-links">
+          <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">View on Zenodo</a>
+          <a href="papers/RIG_ATL_Framework.pdf" download>Download PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div>
+        <p class="pub-title">A Governance Framework for Regulatory Interpretation Alignment in Multi-Vendor User Acceptance Testing (Practitioner Version)</p>
+        <p class="pub-venue">SSRN Preprint</p>
+        <div class="pub-meta"><span class="pub-badge badge-preprint">Preprint</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">A practitioner-oriented preprint derived from the IEEE Access manuscript, condensed for accessibility to a general software quality audience ahead of formal journal publication.</p>
+        <div class="pub-links">
+          <span style="font-style:italic">SSRN listing link to be added once confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="pub-cat-title reveal">Technical Articles</h3>
+    <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1rem">Practitioner-track writing, kept separate from peer-reviewed academic publications above.</p>
     <div class="pub-item reveal" style="border-top:1px solid var(--border)">
       <div class="pub-year">2026</div>
       <div>
         <p class="pub-title">Why a UAT Pass Does Not Mean Release Readiness</p>
         <p class="pub-venue">Ministry of Testing</p>
         <div class="pub-meta"><span class="pub-badge badge-practitioner">Published</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">Argues that release sign-off based on test-pass rate alone produces a false readiness signal, and outlines recurring failure patterns between UAT completion and production stability.</p>
       </div>
+    </div>
+
+    <p style="margin-top:2.5rem;font-size:0.85rem;color:var(--muted);font-style:italic">Research artifacts and submission status will be updated as formal review processes progress.</p>
+
+    <h3 class="pub-cat-title reveal">White Papers</h3>
+    <div class="placeholder-card reveal">
+      <p>This section will be updated as additional professional recognitions and industry activities are completed.</p>
     </div>
   </div>
 </section>
