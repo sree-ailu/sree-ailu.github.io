@@ -255,6 +255,9 @@ nav{
 .badge-review{background:transparent;color:var(--accent-2);border-color:var(--frost-mid)}
 .badge-preprint{background:transparent;color:var(--accent);border-color:#c2d4e2}
 .badge-practitioner{background:transparent;color:#6b7a5e;border-color:#d8e0cf}
+.badge-selected{background:var(--accent);color:#fff;border-color:var(--accent)}
+.badge-accepted{background:var(--accent-2);color:#fff;border-color:var(--accent-2)}
+.badge-submitted{background:transparent;color:var(--accent-2);border-color:var(--frost-mid)}
 .pub-authors{font-size:0.85rem;color:var(--muted)}
 .pub-abstract{font-size:0.88rem;color:var(--muted);line-height:1.75;margin-top:0.75rem;max-width:640px}
 .pub-links{display:flex;gap:1.25rem;flex-wrap:wrap;margin-top:0.85rem}
@@ -368,14 +371,10 @@ footer{
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="research.html">Research</a></li>
-    <li><a href="frameworks.html">Frameworks</a></li>
     <li><a class="active" href="publications.html">Publications</a></li>
     <li><a href="presentations.html">Presentations</a></li>
     <li><a href="peer-review.html">Peer Review</a></li>
     <li><a href="experience.html">Experience</a></li>
-    <li><a href="recognition.html">Recognition</a></li>
-    <li><a href="media.html">Media</a></li>
-    <li><a href="awards.html">Awards</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
@@ -392,12 +391,11 @@ footer{
       <div class="pub-year">2026</div>
       <div>
         <p class="pub-title">A Governance Framework for Regulatory Interpretation Alignment in Multi-Vendor User Acceptance Testing</p>
-        <p class="pub-venue">IEEE Access &nbsp;·&nbsp; Manuscript ID Access-2026-18552</p>
+        <p class="pub-venue">Submitted to IEEE Access — under review</p>
         <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
         <p class="pub-abstract">Proposes a governance framework for aligning regulatory intent with executable acceptance criteria across multi-vendor UAT programs, drawing on evidence from healthcare, insurance, and government enterprise implementations.</p>
         <div class="pub-links">
           <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">Related Preprint (Zenodo)</a>
-          <span style="color:var(--muted);font-size:0.82rem">DOI: pending publication</span>
         </div>
       </div>
     </div>
@@ -407,17 +405,17 @@ footer{
       <div class="pub-year">2026</div>
       <div>
         <p class="pub-title">Closing the Regulatory Interpretation Gap in Enterprise UAT</p>
-        <p class="pub-venue">PNSQC — Pacific Northwest Software Quality Conference</p>
-        <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
-        <p class="pub-abstract">Introduces the Regulatory Interpretation Gap (RIG) as a diagnostic construct for locating where compliance intent erodes across multi-vendor delivery chains, with a governance response via the Acceptance Translation Layer (ATL).</p>
+        <p class="pub-venue">Pacific Northwest Software Quality Conference (PNSQC), 2026</p>
+        <div class="pub-meta"><span class="pub-badge badge-selected">Selected Paper &amp; Presentation</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-abstract">Introduces the Regulatory Interpretation Gap (RIG) as a diagnostic construct for locating where compliance intent erodes across multi-vendor delivery chains, with a governance response via the Acceptance Translation Layer (ATL). Selected through the conference's peer-review process.</p>
       </div>
     </div>
     <div class="pub-item reveal">
       <div class="pub-year">2026</div>
       <div>
-        <p class="pub-title">Testability Coverage Rate</p>
-        <p class="pub-venue">QRS 2026 — Industry Track</p>
-        <div class="pub-meta"><span class="pub-badge badge-review">Under Review</span><span class="pub-authors">Ailu, S.</span></div>
+        <p class="pub-title">The Untestable Gap: Testability Coverage Rate as a Missing Release Readiness Metric in Multi-Vendor Regulated Systems</p>
+        <p class="pub-venue">IEEE International Conference on Software Quality, Reliability and Security (QRS), 2026 — Industry Track</p>
+        <div class="pub-meta"><span class="pub-badge badge-accepted">Accepted</span><span class="pub-authors">Ailu, S.</span></div>
         <p class="pub-abstract">Introduces Testability Coverage Rate (TCR), a metric and scoring methodology quantifying the proportion of system behavior that is reliably testable, distinct from test-pass rate or code coverage.</p>
       </div>
     </div>
@@ -437,19 +435,6 @@ footer{
       </div>
     </div>
 
-    <div class="pub-item reveal">
-      <div class="pub-year">2026</div>
-      <div>
-        <p class="pub-title">A Governance Framework for Regulatory Interpretation Alignment in Multi-Vendor User Acceptance Testing (Practitioner Version)</p>
-        <p class="pub-venue">SSRN Preprint</p>
-        <div class="pub-meta"><span class="pub-badge badge-preprint">Preprint</span><span class="pub-authors">Ailu, S.</span></div>
-        <p class="pub-abstract">A practitioner-oriented preprint derived from the IEEE Access manuscript, condensed for accessibility to a general software quality audience ahead of formal journal publication.</p>
-        <div class="pub-links">
-          <span style="font-style:italic">SSRN listing link to be added once confirmed</span>
-        </div>
-      </div>
-    </div>
-
     <h3 class="pub-cat-title reveal">Technical Articles</h3>
     <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1rem">Practitioner-track writing, kept separate from peer-reviewed academic publications above.</p>
     <div class="pub-item reveal" style="border-top:1px solid var(--border)">
@@ -457,17 +442,13 @@ footer{
       <div>
         <p class="pub-title">Why a UAT Pass Does Not Mean Release Readiness</p>
         <p class="pub-venue">Ministry of Testing</p>
-        <div class="pub-meta"><span class="pub-badge badge-practitioner">Published</span><span class="pub-authors">Ailu, S.</span></div>
+        <div class="pub-meta"><span class="pub-badge badge-submitted">Submitted</span><span class="pub-authors">Ailu, S.</span></div>
         <p class="pub-abstract">Argues that release sign-off based on test-pass rate alone produces a false readiness signal, and outlines recurring failure patterns between UAT completion and production stability.</p>
       </div>
     </div>
 
     <p style="margin-top:2.5rem;font-size:0.85rem;color:var(--muted);font-style:italic">Research artifacts and submission status will be updated as formal review processes progress.</p>
 
-    <h3 class="pub-cat-title reveal">White Papers</h3>
-    <div class="placeholder-card reveal">
-      <p>This section will be updated as additional professional recognitions and industry activities are completed.</p>
-    </div>
   </div>
 </section>
 

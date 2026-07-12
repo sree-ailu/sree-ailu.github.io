@@ -5,6 +5,18 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Research | Sreedhar Ailu</title>
+<meta name="description" content="Research themes in regulatory interpretation alignment, release readiness governance, testability coverage, and enterprise UAT governance."/>
+<meta name="robots" content="index,follow"/>
+<link rel="canonical" href="https://sreedharailu.com/research.html"/>
+<meta property="og:type" content="profile"/>
+<meta property="og:title" content="Research | Sreedhar Ailu"/>
+<meta property="og:description" content="Research themes in regulatory interpretation alignment, release readiness governance, testability coverage, and enterprise UAT governance."/>
+<meta property="og:url" content="https://sreedharailu.com/research.html"/>
+<meta property="og:image" content="https://sreedharailu.com/images/profile.jpg"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Research | Sreedhar Ailu"/>
+<meta name="twitter:description" content="Research themes in regulatory interpretation alignment, release readiness governance, testability coverage, and enterprise UAT governance."/>
+
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -350,14 +362,10 @@ footer{
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a class="active" href="research.html">Research</a></li>
-    <li><a href="frameworks.html">Frameworks</a></li>
     <li><a href="publications.html">Publications</a></li>
     <li><a href="presentations.html">Presentations</a></li>
     <li><a href="peer-review.html">Peer Review</a></li>
     <li><a href="experience.html">Experience</a></li>
-    <li><a href="recognition.html">Recognition</a></li>
-    <li><a href="media.html">Media</a></li>
-    <li><a href="awards.html">Awards</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
@@ -367,7 +375,7 @@ footer{
   <div class="section-inner">
     <span class="section-label reveal">Research Program</span>
     <h2 class="section-title reveal">Research</h2>
-    <p class="section-intro reveal">Practitioner research organized around four recurring problems in regulated, multi-vendor enterprise software delivery.</p>
+    <p class="section-intro reveal">Practitioner research organized around four recurring problems in regulated, multi-vendor enterprise software delivery. Each theme is underpinned by an original framework — see the <a href="frameworks.html" style="color:var(--accent)">Frameworks page</a> for full technical detail.</p>
 
     <div class="theme-card reveal">
       <span class="theme-num">Theme 01</span>
@@ -375,7 +383,7 @@ footer{
       <div class="theme-block"><span class="theme-block-label">Overview</span><p>Examines how regulatory intent is translated — and frequently distorted — as it passes through multiple vendors, systems, and interpretation layers in enterprise software delivery.</p></div>
       <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>In multi-vendor regulated environments, no single party owns the full chain from regulatory text to executable acceptance criteria. Each vendor interprets requirements independently, producing systems that individually pass testing but collectively diverge from regulatory intent.</p></div>
       <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>Definition and characterization of the Regulatory Interpretation Gap (RIG) as a diagnostic construct; development of the Acceptance Translation Layer (ATL) as an operational mechanism to reduce interpretation drift across vendor boundaries.</p></div>
-      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>IEEE Access, Manuscript ID Access-2026-18552 · PNSQC 2026 · <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">Zenodo preprint</a></p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>IEEE Access manuscript — under review<br>PNSQC 2026 paper — selected through peer review<br>Zenodo preprint — publicly available (<a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">view</a>)</p></div>
       <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
       <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Extension of the RIG/ATL model toward AI-assisted regulatory interpretation alignment.</p></div>
     </div>
@@ -386,7 +394,7 @@ footer{
       <div class="theme-block"><span class="theme-block-label">Overview</span><p>Investigates why a fully passed UAT cycle does not guarantee a stable production release, and proposes governance structures to close that gap.</p></div>
       <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>Release sign-off is typically based on test-pass rates rather than a structured assessment of readiness. Releases that "passed" still fail in production because passing tests do not verify the same thing as being ready to release.</p></div>
       <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>A practitioner framework identifying recurring failure patterns between UAT completion and release stability, and a governance checklist for release-readiness assessment distinct from test completion.</p></div>
-      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>"Why a UAT Pass Does Not Mean Release Readiness" — Ministry of Testing</p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>"Why a UAT Pass Does Not Mean Release Readiness" — practitioner article submitted to Ministry of Testing</p></div>
       <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
       <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Formalizing the release-readiness governance checklist into a scored, reproducible assessment model.</p></div>
     </div>
@@ -396,8 +404,8 @@ footer{
       <h3 class="theme-title">Testability Coverage</h3>
       <div class="theme-block"><span class="theme-block-label">Overview</span><p>Develops a measurable standard for testability — how much of a system's behavior can actually be verified — as distinct from test coverage or pass/fail metrics.</p></div>
       <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>Existing coverage metrics measure what was tested, not what can be reliably tested. Systems can show high test-pass rates while significant portions of their behavior remain effectively unverifiable.</p></div>
-      <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>Introduction of Testability Coverage Rate (TCR), a metric and methodology for quantifying testability at the system level.</p></div>
-      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>"Testability Coverage Rate" — QRS 2026 Industry Track</p></div>
+      <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>Introduction of Testability Coverage Rate (TCR), a metric and methodology for quantifying testability at the system level, presented as <em>The Untestable Gap: Testability Coverage Rate as a Missing Release Readiness Metric in Multi-Vendor Regulated Systems</em>.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>"The Untestable Gap: Testability Coverage Rate as a Missing Release Readiness Metric in Multi-Vendor Regulated Systems" — accepted for presentation, QRS 2026 Industry Track</p></div>
       <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
       <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Validation of TCR against production incident data across multiple enterprise systems.</p></div>
     </div>
