@@ -4,7 +4,7 @@
 
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Sreedhar Ailu | Software Quality Governance</title>
+<title>Research | Sreedhar Ailu</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -347,9 +347,9 @@ footer{
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">
-    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="research.html">Research</a></li>
+    <li><a class="active" href="research.html">Research</a></li>
     <li><a href="frameworks.html">Frameworks</a></li>
     <li><a href="publications.html">Publications</a></li>
     <li><a href="presentations.html">Presentations</a></li>
@@ -361,26 +361,56 @@ footer{
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
+<div style="height:64px"></div>
+<!-- RESEARCH -->
+<section id="research" class="section section-alt">
+  <div class="section-inner">
+    <span class="section-label reveal">Research Program</span>
+    <h2 class="section-title reveal">Research</h2>
+    <p class="section-intro reveal">Practitioner research organized around four recurring problems in regulated, multi-vendor enterprise software delivery.</p>
 
-<!-- HERO -->
-<section id="home">
-  <div class="hero-inner">
-    <div>
-      <p class="hero-eyebrow">Practitioner · Researcher · Governance Practitioner</p>
-      <h1 class="hero-name">Sreedhar Ailu</h1>
-      <p class="hero-title">Enterprise Software Quality Governance · Regulated Healthcare Systems</p>
-      <p class="hero-bio">Over a decade of experience governing complex, multi-vendor system integrations in regulated healthcare environments — at the intersection of software engineering practice, compliance assurance, and UAT governance.</p>
-      <div class="hero-ctas">
-        <a href="research.html" class="btn-primary">View Frameworks</a>
-        <a href="contact.html" class="btn-secondary">Get in Touch</a>
-      </div>
+    <div class="theme-card reveal">
+      <span class="theme-num">Theme 01</span>
+      <h3 class="theme-title">Regulatory Interpretation Alignment</h3>
+      <div class="theme-block"><span class="theme-block-label">Overview</span><p>Examines how regulatory intent is translated — and frequently distorted — as it passes through multiple vendors, systems, and interpretation layers in enterprise software delivery.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>In multi-vendor regulated environments, no single party owns the full chain from regulatory text to executable acceptance criteria. Each vendor interprets requirements independently, producing systems that individually pass testing but collectively diverge from regulatory intent.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>Definition and characterization of the Regulatory Interpretation Gap (RIG) as a diagnostic construct; development of the Acceptance Translation Layer (ATL) as an operational mechanism to reduce interpretation drift across vendor boundaries.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>IEEE Access, Manuscript ID Access-2026-18552 · PNSQC 2026 · <a href="https://zenodo.org/records/19870009" target="_blank" rel="noopener">Zenodo preprint</a></p></div>
+      <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
+      <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Extension of the RIG/ATL model toward AI-assisted regulatory interpretation alignment.</p></div>
     </div>
-    <div class="hero-photo-col">
-      <div class="hero-photo-wrap">
-        <img src="images/profile.jpg" alt="Sreedhar Ailu"
-          onerror="this.style.display='none';document.getElementById('hi').style.display='flex'">
-        <div id="hi" class="hero-initials">SA</div>
-      </div>
+
+    <div class="theme-card reveal d1">
+      <span class="theme-num">Theme 02</span>
+      <h3 class="theme-title">Release Readiness Governance</h3>
+      <div class="theme-block"><span class="theme-block-label">Overview</span><p>Investigates why a fully passed UAT cycle does not guarantee a stable production release, and proposes governance structures to close that gap.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>Release sign-off is typically based on test-pass rates rather than a structured assessment of readiness. Releases that "passed" still fail in production because passing tests do not verify the same thing as being ready to release.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>A practitioner framework identifying recurring failure patterns between UAT completion and release stability, and a governance checklist for release-readiness assessment distinct from test completion.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>"Why a UAT Pass Does Not Mean Release Readiness" — Ministry of Testing</p></div>
+      <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
+      <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Formalizing the release-readiness governance checklist into a scored, reproducible assessment model.</p></div>
+    </div>
+
+    <div class="theme-card reveal">
+      <span class="theme-num">Theme 03</span>
+      <h3 class="theme-title">Testability Coverage</h3>
+      <div class="theme-block"><span class="theme-block-label">Overview</span><p>Develops a measurable standard for testability — how much of a system's behavior can actually be verified — as distinct from test coverage or pass/fail metrics.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>Existing coverage metrics measure what was tested, not what can be reliably tested. Systems can show high test-pass rates while significant portions of their behavior remain effectively unverifiable.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>Introduction of Testability Coverage Rate (TCR), a metric and methodology for quantifying testability at the system level.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>"Testability Coverage Rate" — QRS 2026 Industry Track</p></div>
+      <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
+      <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Validation of TCR against production incident data across multiple enterprise systems.</p></div>
+    </div>
+
+    <div class="theme-card reveal d1">
+      <span class="theme-num">Theme 04</span>
+      <h3 class="theme-title">Enterprise UAT Governance</h3>
+      <div class="theme-block"><span class="theme-block-label">Overview</span><p>Addresses governance structure for User Acceptance Testing in multi-vendor, regulated enterprise programs — where UAT ownership, criteria, and sign-off authority are frequently fragmented.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Problem Statement</span><p>Multi-vendor UAT programs commonly lack a single governing authority over acceptance criteria, producing inconsistent sign-off standards between vendors.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Research Contributions</span><p>Governance model for UAT ownership and acceptance-criteria alignment across vendor boundaries, drawn from 13+ years of practitioner experience in healthcare, insurance, and government implementations.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Related Publications</span><p>Shares source material with Themes 01 and 02 above.</p></div>
+      <div class="theme-block"><span class="theme-block-label">Conference Presentations</span><p><a href="presentations.html">See Presentations</a></p></div>
+      <div class="theme-block"><span class="theme-block-label">Future Research</span><p>Development of a standalone UAT governance maturity model for regulated enterprise programs.</p></div>
     </div>
   </div>
 </section>
